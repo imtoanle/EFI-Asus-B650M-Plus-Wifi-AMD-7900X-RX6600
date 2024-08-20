@@ -595,6 +595,11 @@
 				<key>built-in</key>
 				<integer>0</integer>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x8,0x3)/Pci(0x0,0x0)</key>
+			<dict>
+				<key>acpi-wake-type</key>
+				<data>AQ==</data>
+			</dict>
 		</dict>
 		<key>Delete</key>
 		<dict/>
@@ -1842,7 +1847,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>e1000=0 agdpmod=pikera shikigva=128 unfairgva=1 keepsyms=1 alcid=11 revpatch=cpuname -amfipassbeta revpatch=sbvmm -radcodec</string>
+				<string>e1000=0 agdpmod=pikera shikigva=128 unfairgva=1 keepsyms=1 swd_panic=1 alcid=11 revpatch=cpuname -amfipassbeta revpatch=sbvmm -radcodec</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
