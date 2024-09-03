@@ -43,7 +43,7 @@
 				<key>kUSBMuxEnabled</key>
 				<true/>
 				<key>port-count</key>
-				<data>DAAAAA==</data>
+				<data>DgAAAA==</data>
 				<key>ports</key>
 				<dict>
 					<key>POT1</key>
@@ -90,6 +90,15 @@
 						<data>DAAAAA==</data>
 						<key>Comment</key>
 						<string>Rear Port 7 USB 2.0 personality</string>
+					</dict>
+					<key>POTG</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>0</integer>
+						<key>port</key>
+						<data>DgAAAA==</data>
+						<key>Comment</key>
+						<string>Mainboard USB 2.0 personality</string>
 					</dict>
 				</dict>
 			</dict>
